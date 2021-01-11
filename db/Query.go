@@ -22,7 +22,7 @@ func QueryUser(Username string) User {
 	}
 	defer databse.Close()
 	//Lakukan query dan masukkan nilai dari user
-	err = databse.QueryRow("SELECT * FROM users WHERE Username = ?", Username).Scan(
+	err = databse.QueryRow("SELECT * FROM users WHERE username = ?", Username).Scan(
 		&users.ID,
 		&users.Username,
 		&users.Firsname,

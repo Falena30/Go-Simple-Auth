@@ -15,6 +15,9 @@ func main() {
 	//		http.FileServer(http.Dir("asset"))))
 
 	r.HandleFunc("/register", handle.PostRegister)
+	r.HandleFunc("/login", handle.PostLogin)
+	r.HandleFunc("/logout", handle.LogOut)
+	r.HandleFunc("/", handle.PostHome)
 	//static route untuk memamngil local css atau js
 	r.PathPrefix("/").Handler(http.FileServer(http.Dir("./asset/")))
 	http.ListenAndServe(":8080", r)

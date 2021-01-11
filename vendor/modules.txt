@@ -1,19 +1,33 @@
 # github.com/andybalholm/brotli v1.0.1
 ## explicit
+github.com/andybalholm/brotli
 # github.com/go-sql-driver/mysql v1.5.0
 ## explicit
 github.com/go-sql-driver/mysql
+# github.com/google/uuid v1.1.1
+github.com/google/uuid
 # github.com/gorilla/mux v1.8.0
 ## explicit
 github.com/gorilla/mux
 # github.com/kataras/go-sessions v3.0.0+incompatible
 ## explicit
+# github.com/kataras/go-sessions/v3 v3.3.0
+## explicit
+github.com/kataras/go-sessions/v3
 # github.com/klauspost/compress v1.11.6
 ## explicit
+github.com/klauspost/compress/flate
+github.com/klauspost/compress/gzip
+github.com/klauspost/compress/zlib
 # github.com/satori/go.uuid v1.2.0
 ## explicit
+# github.com/valyala/bytebufferpool v1.0.0
+github.com/valyala/bytebufferpool
 # github.com/valyala/fasthttp v1.19.0
 ## explicit
+github.com/valyala/fasthttp
+github.com/valyala/fasthttp/fasthttputil
+github.com/valyala/fasthttp/stackless
 # golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
 ## explicit
 golang.org/x/crypto/bcrypt

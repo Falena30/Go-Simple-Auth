@@ -8,7 +8,7 @@ import (
 
 //Connect digunakan untuk menghubungkan ke DB
 func Connect() (*sql.DB, error) {
-	db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/Auth_Simple")
+	db, err := sql.Open("mysql", "root:@tcp(127.0.0.1:3306)/go_db")
 	if err != nil {
 		return nil, err
 	}
